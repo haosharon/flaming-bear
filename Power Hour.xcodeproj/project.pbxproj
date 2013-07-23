@@ -23,6 +23,12 @@
 		4F3469C9141FBC9C00582849 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F3469C7141FBC9C00582849 /* InfoPlist.strings */; };
 		4F3469CB141FBC9C00582849 /* Power_HourTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4F3469CA141FBC9C00582849 /* Power_HourTests.h */; };
 		4F3469CD141FBC9C00582849 /* Power_HourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3469CC141FBC9C00582849 /* Power_HourTests.m */; };
+		4F7EDF171426920200985959 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7EDF161426920200985959 /* AVFoundation.framework */; };
+		4F89E353142D39390089B498 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F89E352142D39390089B498 /* MessageUI.framework */; };
+		4FBD0F0F1421639000EEBEFF /* shots_clipo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4FBD0F0E1421639000EEBEFF /* shots_clipo.mp3 */; };
+		4FCB8B01142033C9002DFB5B /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB8AFF142033C9002DFB5B /* SettingsViewController.m */; };
+		4FCB8B02142033C9002DFB5B /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FCB8B00142033C9002DFB5B /* SettingsViewController.xib */; };
+		4FFDA090142EDFB500122D46 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFDA08F142EDFB500122D46 /* default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +46,29 @@
 		4F34699C141FBC9C00582849 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4F34699E141FBC9C00582849 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4F3469A0141FBC9C00582849 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4F3469A4141FBC9C00582849 /* Power Hour-Info.plist */ = {isa = PBXFileReference; path = "Power Hour-Info.plist"; sourceTree = "<group>"; };
+		4F3469A4141FBC9C00582849 /* Power Hour-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Power Hour-Info.plist"; sourceTree = "<group>"; };
 		4F3469A6141FBC9C00582849 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4F3469A8141FBC9C00582849 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4F3469AA141FBC9C00582849 /* Power Hour-Prefix.pch */ = {isa = PBXFileReference; path = "Power Hour-Prefix.pch"; sourceTree = "<group>"; };
-		4F3469AB141FBC9C00582849 /* Power_HourAppDelegate.h */ = {isa = PBXFileReference; path = Power_HourAppDelegate.h; sourceTree = "<group>"; };
+		4F3469AA141FBC9C00582849 /* Power Hour-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Power Hour-Prefix.pch"; sourceTree = "<group>"; };
+		4F3469AB141FBC9C00582849 /* Power_HourAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Power_HourAppDelegate.h; sourceTree = "<group>"; };
 		4F3469AC141FBC9C00582849 /* Power_HourAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Power_HourAppDelegate.m; sourceTree = "<group>"; };
 		4F3469AF141FBC9C00582849 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		4F3469B1141FBC9C00582849 /* Power_HourViewController.h */ = {isa = PBXFileReference; path = Power_HourViewController.h; sourceTree = "<group>"; };
+		4F3469B1141FBC9C00582849 /* Power_HourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Power_HourViewController.h; sourceTree = "<group>"; };
 		4F3469B2141FBC9C00582849 /* Power_HourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Power_HourViewController.m; sourceTree = "<group>"; };
 		4F3469B5141FBC9C00582849 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Power_HourViewController.xib; sourceTree = "<group>"; };
 		4F3469BC141FBC9C00582849 /* Power HourTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Power HourTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F3469BD141FBC9C00582849 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		4F3469C6141FBC9C00582849 /* Power HourTests-Info.plist */ = {isa = PBXFileReference; path = "Power HourTests-Info.plist"; sourceTree = "<group>"; };
+		4F3469C6141FBC9C00582849 /* Power HourTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Power HourTests-Info.plist"; sourceTree = "<group>"; };
 		4F3469C8141FBC9C00582849 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4F3469CA141FBC9C00582849 /* Power_HourTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Power_HourTests.h; sourceTree = "<group>"; };
 		4F3469CC141FBC9C00582849 /* Power_HourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Power_HourTests.m; sourceTree = "<group>"; };
+		4F7EDF161426920200985959 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4F89E352142D39390089B498 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		4FBD0F0E1421639000EEBEFF /* shots_clipo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shots_clipo.mp3; sourceTree = "<group>"; };
+		4FCB8AFE142033C9002DFB5B /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		4FCB8AFF142033C9002DFB5B /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		4FCB8B00142033C9002DFB5B /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		4FFDA08F142EDFB500122D46 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +79,8 @@
 				4F34699D141FBC9C00582849 /* UIKit.framework in Frameworks */,
 				4F34699F141FBC9C00582849 /* Foundation.framework in Frameworks */,
 				4F3469A1141FBC9C00582849 /* CoreGraphics.framework in Frameworks */,
+				4F7EDF171426920200985959 /* AVFoundation.framework in Frameworks */,
+				4F89E353142D39390089B498 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +120,8 @@
 		4F34699B141FBC9C00582849 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4F89E352142D39390089B498 /* MessageUI.framework */,
+				4F7EDF161426920200985959 /* AVFoundation.framework */,
 				4F34699C141FBC9C00582849 /* UIKit.framework */,
 				4F34699E141FBC9C00582849 /* Foundation.framework */,
 				4F3469A0141FBC9C00582849 /* CoreGraphics.framework */,
@@ -123,6 +140,9 @@
 				4F3469B2141FBC9C00582849 /* Power_HourViewController.m */,
 				4F3469B4141FBC9C00582849 /* Power_HourViewController.xib */,
 				4F3469A3141FBC9C00582849 /* Supporting Files */,
+				4FCB8AFE142033C9002DFB5B /* SettingsViewController.h */,
+				4FCB8AFF142033C9002DFB5B /* SettingsViewController.m */,
+				4FCB8B00142033C9002DFB5B /* SettingsViewController.xib */,
 			);
 			path = "Power Hour";
 			sourceTree = "<group>";
@@ -130,6 +150,8 @@
 		4F3469A3141FBC9C00582849 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4FFDA08F142EDFB500122D46 /* default.png */,
+				4FBD0F0E1421639000EEBEFF /* shots_clipo.mp3 */,
 				4F3469A4141FBC9C00582849 /* Power Hour-Info.plist */,
 				4F3469A5141FBC9C00582849 /* InfoPlist.strings */,
 				4F3469A8141FBC9C00582849 /* main.m */,
@@ -227,6 +249,9 @@
 				4F3469A7141FBC9C00582849 /* InfoPlist.strings in Resources */,
 				4F3469B0141FBC9C00582849 /* MainWindow.xib in Resources */,
 				4F3469B6141FBC9C00582849 /* Power_HourViewController.xib in Resources */,
+				4FCB8B02142033C9002DFB5B /* SettingsViewController.xib in Resources */,
+				4FBD0F0F1421639000EEBEFF /* shots_clipo.mp3 in Resources */,
+				4FFDA090142EDFB500122D46 /* default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +290,7 @@
 				4F3469A9141FBC9C00582849 /* main.m in Sources */,
 				4F3469AD141FBC9C00582849 /* Power_HourAppDelegate.m in Sources */,
 				4F3469B3141FBC9C00582849 /* Power_HourViewController.m in Sources */,
+				4FCB8B01142033C9002DFB5B /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,9 +394,14 @@
 		4F3469D1141FBC9C00582849 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Power Hour/Power Hour-Prefix.pch";
 				INFOPLIST_FILE = "Power Hour/Power Hour-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -379,9 +410,14 @@
 		4F3469D2141FBC9C00582849 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Power Hour/Power Hour-Prefix.pch";
 				INFOPLIST_FILE = "Power Hour/Power Hour-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -440,6 +476,7 @@
 				4F3469D2141FBC9C00582849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F3469D3141FBC9C00582849 /* Build configuration list for PBXNativeTarget "Power HourTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +485,7 @@
 				4F3469D5141FBC9C00582849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
